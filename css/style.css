@@ -1,0 +1,157 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ================= header ================= */
+
+.site_heade_inner{
+	padding: 30px 30px 90px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 3.2rem;
+}
+.site_heade_inner .tit{
+	font-weight: 700;
+}
+.gnav_list{
+	display: flex;
+}
+.gnav_item{
+	margin-left: 50px;
+}
+.gnav_item a{
+	color: #333;
+}
+
+/* ================= main ================= */
+
+
+/* ======== top ======== */
+
+section.top {
+	font-family: Copse;
+	color: #ffffff;
+	margin-bottom: 150px;
+	background-image: url(../img/main_pic.png);
+	height: 58.333vw;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+section.top h2 {
+	font-size: 8.333vw;
+}
+
+section.top p {
+	font-size: 2.0833vw;
+	text-align: center;
+}
+
+/* ======== contents ======== */
+
+section.contents {
+	margin: 0 100px;
+}
+
+/* === About === */
+
+section.About {
+	margin-bottom: 150px;
+}
+
+section.About h2 {
+	font-size: 5.6rem;
+	font-weight: bold;
+	margin-bottom: 60px;
+}
+
+.introduction {
+	margin-bottom: 90px;
+}
+
+.name {
+	font-weight: bold;
+	font-size: 3.6rem;
+}
+
+.skill {
+	margin-bottom: 50px;
+}
+
+.appeal h3 {
+	margin-bottom: 25px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.appeal-detail {
+	border: solid 1px #000;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.appeal-detail h4 {
+	font-size: 2.4rem;
+	font-weight: bold;
+}
+
+/* === Works === */
+
+section.Works {
+	margin-bottom: 150px;
+}
+
+section.Works h2 {
+	font-size: 5.6rem;
+	font-weight: bold;
+	margin-bottom: 60px;
+}
+/* ================= なぜ？？？flexで小さくなる ================= */
+.post {
+	display: flex;
+}
+
+.app1 {
+	margin-bottom: 200px;
+}
+
+.app2 {
+	margin-bottom: 200px;
+}
+
+.team-development {
+	margin-bottom: 200px;
+}
+
+.daily-works {
+	margin-bottom: 200px;
+}
+
+
+/* ================= footer ================= */
+
+.site_footer{
+	padding: 22px 0 10px;
+	background-color: #D6D6D6;
+}
+.sns_list{
+	margin: 0 0 25px;
+	display: flex;
+	justify-content: center;
+}
+.sns_list .item{
+	margin: 0 28px;
+}
+.sns_list .item a{
+	width: 26px;
+}
+.sns_list .item:nth-child(3){
+	width: 12px;
+}
+.copyright{
+	text-align: center;
+	font-size: 1.4rem;
+	color: #5F5F5F;
+}
